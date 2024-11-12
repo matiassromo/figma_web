@@ -1,6 +1,3 @@
-/** @format */
-
-/* ! link font  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Peralta&family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
@@ -45,7 +42,7 @@ body {
     0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
 }
 
-/* ? header-container design starts here  */
+
 header {
   background: url(./img/background-img.png) no-repeat 50% center;
   background-size: cover;
@@ -68,13 +65,14 @@ nav {
   margin-left: 55px;
 }
 
-.logo a {
+.header__logo-link {
   color: var(--black);
   font-family: Peralta;
   font-size: 0px;
   font-weight: 600;
   text-decoration: none;
 }
+
 
 .nav-list {
   flex: 1;
@@ -146,10 +144,6 @@ nav ul li .btn-orange {
   margin-top: 26px;
 }
 
-/* ? header-container design end here  */
-
-/* todo main-container starts here  */
-/* ? category-container starts here  */
 .category-container {
   display: flex;
   flex-direction: column;
